@@ -1,10 +1,10 @@
-import React from 'react';
-import TheLayout from './views/pages/TheLayout';
-
+import React, { useState } from "react";
+import TheLayout from "./views/pages/TheLayout";
 
 function App() {
+  const [first, setfirst] = useState({});
   return (
-    <div >
+    <div>
       <TheLayout />
     </div>
   );
